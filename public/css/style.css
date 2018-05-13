@@ -55,19 +55,16 @@ button:disabled {
         justify-content: center;
 }
 
-img-txt {
-        font-size: 70px;
-        align-items: center;
-        justify-content: center;
-        content: "Y A S S E R"; 
-}
-
 .bg-img {
         position: relative;
         width: 100%;
         height: 100%;
         background: url("https://cdn.narcity.com/uploads/259149_12f6d1c1c038302bc8fd9a2c46e1eb3d55534237.png_facebook.png") center center no-repeat;
         background-size: cover;
+        font-size: 70px;
+        text-align: center;
+        color: #fff;
+        content: "Y A S S E R";
 }
 
 .bg-img:before {
