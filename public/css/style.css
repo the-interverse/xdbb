@@ -4,12 +4,12 @@ button,
 button:hover {
         border: none;
         color: #fff;
-        padding: 10px
+        padding: 10px;
 }
 
 .chat__messages,
 .chat__sidebar ul {
-        list-style-type: none
+        list-style-type: none;
 }
 
 * {
@@ -18,33 +18,33 @@ button:hover {
         padding: 0;
         font-family: 'Raleway', HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight: 300;
-        font-size: .95rem
+        font-size: .95rem;
 }
 
 li,
 ul {
-        list-style-position: inside
+        list-style-position: inside;
 }
 
 h3 {
         font-weight: 600;
         text-align: center;
-        font-size: 1.5rem
+        font-size: 1.5rem;
 }
 
 button {
         background: #333;
         cursor: pointer;
-        transition: background .3s ease
+        transition: background .3s ease;
 }
 
 button:hover {
-        background: #424242
+        background: #424242;
 }
 
 button:disabled {
         cursor: default;
-        background: #494949
+        background: #494949;
 }
 
 .centered-form {
@@ -58,38 +58,38 @@ button:disabled {
         background: -webkit-linear-gradient(125deg, #333 0, #444 100%);
         background: -o-linear-gradient(125deg, #333 0, #444 100%);
         background: -ms-linear-gradient(125deg, #333 0, #444 100%);
-        background: linear-gradient(325deg, #333 0, #444 100%)
+        background: linear-gradient(325deg, #333 0, #444 100%);
 }
 
 .centered-form__form {
         background: white;        
         padding: 0 20px;
         margin: 20px;
-        width: 500px
+        width: 300px;
         border: 5px solid white;
 }
 
 .form-field {
-        margin: 20px 0
+        margin: 20px 0;
 }
 
 .form-field>* {
-        width: 100%
+        width: 100%;
 }
 
 .form-field label {
         display: block;
-        margin-bottom: 7px
+        margin-bottom: 7px;
 }
 
 .form-field input,
 .form-field select {
         border: 1px solid #e1e1e1;
-        padding: 10px
+        padding: 10px;
 }
 
 .chat {
-        display: flex
+        display: flex;
 }
 
 .chat__sidebar {
@@ -101,93 +101,93 @@ button:disabled {
         background: -webkit-linear-gradient(125deg, #333 0, #444 100%);
         background: -o-linear-gradient(125deg, #333 0, #444 100%);
         background: -ms-linear-gradient(125deg, #333 0, #444 100%);
-        background: linear-gradient(325deg, #333 0, #444 100%)
+        background: linear-gradient(325deg, #333 0, #444 100%);
 }
 
 .chat__footer,
 .chat__sidebar li {
         background: #efefef;
-        padding: 10px
+        padding: 10px;
 }
 
 .chat__sidebar h3 {
         color: white;
         margin: 10px 20px;
-        text-align: left
+        text-align: left;
 }
 
 .chat__sidebar li {
         border: 1px solid white;
         border-radius: 5px;
-        margin: 10px
+        margin: 10px;
 }
 
 .chat__main {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        width: 100%
+        width: 100%;
 }
 
 .chat__messages {
         flex-grow: 1;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-        padding: 10px
+        padding: 10px;
 }
 
 .chat__footer {
         display: flex;
-        flex-shrink: 0
+        flex-shrink: 0;
 }
 
 .chat__footer form {
         flex-grow: 1;
-        display: flex
+        display: flex;
 }
 
 .chat__footer form * {
-        margin-right: 10px
+        margin-right: 10px;
 }
 
 .chat__footer input {
         border: none;
         padding: 10px;
-        flex-grow: 1
+        flex-grow: 1;
 }
 
 .message {
-        padding: 10px
+        padding: 10px;
 }
 
 .message__title {
         display: flex;
-        margin-bottom: 5px
+        margin-bottom: 5px;
 }
 
 .message__title h4 {
         font-weight: 600;
-        margin-right: 10px
+        margin-right: 10px;
 }
 
 .message__title span {
-        color: #999
+        color: #999;
 }
 
 @media (max-width:600px) {
         * {
-                font-size: 1rem
+                font-size: 1rem;
         }
         .chat__sidebar {
-                display: none
+                display: none;
         }
         .chat__footer {
-                flex-direction: column
+                flex-direction: column;
         }
         .chat__footer form {
-                margin-bottom: 10px
+                margin-bottom: 10px;
         }
         .chat__footer button {
-                margin-right: 0
+                margin-right: 0;
         }
 }
