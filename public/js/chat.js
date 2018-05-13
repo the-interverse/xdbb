@@ -1,11 +1,5 @@
 var socket = io();
 
-var x = prompt("a");
-
-if(x === "x"){
-socket.emit('newMessage', generateMessage('Admin/Yasser', '(c) Yasser Noori, 2018'));
-}
-
 function scrollToBottom() {
 	//selectors
 	var messages = $('#messages');
