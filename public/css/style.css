@@ -55,6 +55,12 @@ button:disabled {
         justify-content: center;
 }
 
+img-txt {
+        font-size: 70px;
+        align-items: center;
+        justify-content: center;
+}
+
 .bg-img {
         position: relative;
         width: 100%;
