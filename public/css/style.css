@@ -59,22 +59,18 @@ button:disabled {
         position: relative;
         width: 100%;
         height: 100%;
-        background: url("https://cdn.narcity.com/uploads/259149_12f6d1c1c038302bc8fd9a2c46e1eb3d55534237.png_facebook.png") center center no-repeat;
-        background-size: cover;
         font-size: 70px;
         text-align: center;
         color: #fff;
-        pointer-events: none;
 }
 
 .bg-img:before {
-        content: '';
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+        colllear-gradient(to bottom right, #002f4b, #dc4225);
         opacity: .6;
         pointer-events: none;
 }
