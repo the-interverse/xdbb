@@ -59,9 +59,6 @@ button:disabled {
         position: relative;
         width: 100%;
         height: 100%;
-        font-size: 70px;
-        text-align: center;
-        color: #fff;
 }
 
 .bg-img:before {
@@ -70,9 +67,6 @@ button:disabled {
         right: 0;
         bottom: 0;
         left: 0;
-        background: linear-gradient(to bottom right, #002f4b, #dc4225);
-        opacity: .6;
-        pointer-events: none;
 }
 
 .centered-form__form {
