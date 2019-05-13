@@ -7,6 +7,13 @@ button:hover {
         padding: 10px;
 }
 
+.private,
+.private:hover {
+        border: none;
+        color: #fff;
+        padding: 10px;
+}
+
 .chat__messages,
 .chat__sidebar ul {
         list-style-type: none;
@@ -43,6 +50,21 @@ button:hover {
 }
 
 button:disabled {
+        cursor: default;
+        background: #494949;
+}
+
+.private {
+        background: #333;
+        cursor: pointer;
+        transition: background .3s ease;
+}
+
+.private:hover {
+        background: #424242;
+}
+
+.private:disabled {
         cursor: default;
         background: #494949;
 }
