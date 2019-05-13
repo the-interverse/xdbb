@@ -28,7 +28,7 @@ io.on('connection', (socket) => {
 		io.to(params.room).emit('updateUserList', users.getUserList(params.room));
 		
 		socket.emit('newMessage', generateMessage('Admin/Yasser', '© Yasser Noori, 2019'));
-		socket.emit('newMessage', generateMessage('Admin/Yasser', 'T . H . C . C'));
+		socket.emit('newMessage', generateMessage('Admin/Yasser', 'T.H.C.C -- Thorncliffe Hacking Communications Center'));
 
 		socket.broadcast.to(params.room).emit('newMessage', generateMessage('Admin', `${params.name} has joined.`));
 
